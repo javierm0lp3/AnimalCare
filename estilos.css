@@ -1,0 +1,116 @@
+/*Estilos Generales*/
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: rgb(79, 155, 79);
+}
+
+/*Navegador*/
+nav{
+    background-color: rgb(79, 155, 79);
+    padding: 40px;
+    display: flex;
+    justify-content: right;
+}
+.nav-enlace{
+    display: flexbox;
+    background-color: rgb(79, 155, 79);
+    color: rgb(63, 63, 63);
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background-color: rgb(107, 170, 107);
+}
+.left-image{
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+.left-image img{
+    width: 90px;
+    border-radius: 10px;
+    height: auto;
+}
+
+/*Estilos Header*/
+header{
+    background-color: rgb(146, 214, 146);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/*Seccion 1*/
+.content{
+    padding: 20px;
+    background-color: rgb(178, 231, 178);
+}
+.content h3{
+    text-align: center;
+    color: rgb(79, 155, 79);
+}
+ul{
+    list-style-type: square;
+    padding: 0px;
+}
+ul li{
+    margin: 10px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Estilos Seccion 2*/
+.gallery{
+    padding: 20px;
+    background-color: white;
+}
+.gallery h3{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(79, 155, 79)
+}
+.image-grid{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.image-block{
+    text-align: center;
+    flex-basis: 30%;
+    margin-bottom: 20px;
+}
+.image-block img{
+    width: 500px;
+    height: 260px;
+    margin-bottom: 10px;
+    
+}
+.image-block h3{
+    font-size: 16px;
+    color: rgb(79, 155, 79);
+}
+.image-block p{
+    font-size: 12px;
+}
+
+
+
+/*Estilos Footer*/
+footer{
+    background-color: rgb(79, 155, 79);
+    text-align: center;
+    color: rgb(63, 63, 63);
+}
